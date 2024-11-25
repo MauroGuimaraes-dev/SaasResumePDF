@@ -34,13 +34,15 @@ def process_question_with_rag(question, text):
     prompt = f"Texto do livro: {summarized_text}\n\nPergunta: {question}\nResposta:"
 
     try:
-        # Usar a nova interface da API
+        # Usar a interface correta para o modelo GPT-4
         response = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
+            model="gpt-4",
             messages=[
                 {"role": "system", "content": "Você é um assistente útil."},
                 {"role": "user", "content": prompt}
-            ]
+            ],
+            max_tokens=150,
+            temperature=0.7
         )
         answer = response['choices'][0]['message']['content'].strip()
         return answer
