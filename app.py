@@ -36,7 +36,7 @@ def process_question_with_rag(question, text):
     try:
         # Usar a interface correta para o modelo GPT-4
         response = openai.ChatCompletion.create(
-            model="gpt-4",
+            model="gpt-4o-mini",
             messages=[
                 {"role": "system", "content": "Você é um assistente útil."},
                 {"role": "user", "content": prompt}
