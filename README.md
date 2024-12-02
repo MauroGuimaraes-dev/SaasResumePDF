@@ -18,11 +18,11 @@ Este é um aplicativo de leitura de PDF desenvolvido com Streamlit e PyMuPDF. El
 ## Instalação
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/MLRagPDF2.git
+   git clone https://github.com/seu-usuario/SaasResumePDF.git
    ```
 2. Navegue até o diretório do projeto:
    ```bash
-   cd MLRagPDF2
+   cd SaasResumePDF
    ```
 3. Instale as dependências:
    ```bash
