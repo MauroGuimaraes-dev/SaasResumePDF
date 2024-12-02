@@ -34,8 +34,9 @@ Este é um aplicativo de leitura de PDF desenvolvido com Streamlit e PyMuPDF. El
    ```bash
    streamlit run app.py
    ```
-2. Insira sua OpenAI API Key na barra lateral.
-3. Carregue um arquivo PDF e faça perguntas sobre seu conteúdo.
+2. Insira "sua" OpenAI API Key na barra lateral.
+3. Ative a api_key
+4. Carregue um arquivo PDF e faça perguntas sobre seu conteúdo.
 
 ## Autor
-Desenvolvido por Mauro Guimarães.
+Desenvolvido por Mauro de Souza Guimarães.
